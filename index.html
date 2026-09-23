@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kissan Cheese - Premium & Fresh Cheese Products</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-blue-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <!-- Brand Logo / Name -->
+            <a href="#" class="text-2xl font-bold text-brand-700 tracking-tight flex items-center gap-2.5">
+                <i class="fa-solid fa-cheese text-amber-500 text-2xl"></i>
+                <span>Kissan Cheese</span>
+            </a>
+
+            <!-- Nav Links -->
+            <div class="hidden md:flex items-center space-x-8 font-medium text-slate-600">
+                <a href="#products" class="hover:text-brand-600 transition">Products</a>
+                <a href="#about" class="hover:text-brand-600 transition">About Us</a>
+                <a href="#contact" class="hover:text-brand-600 transition">Contact</a>
+            </div>
+
+            <!-- Header Quick Order Button -->
+            <!-- REPLACE '8801315446547' WITH YOUR WHATSAPP NUMBER -->
+            <a href="https://wa.me/8801315446547?text=Hi!%20I%20want%20to%20inquire%20about%20Kissan%20Cheese%20products." 
+               target="_blank" 
+               class="bg-brand-600 hover:bg-brand-700 text-white px-4 py-2 rounded-full font-medium text-sm flex items-center gap-2 shadow-md hover:shadow-lg transition">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>Order on WhatsApp</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="bg-gradient-to-b from-blue-50 to-white py-16 md:py-24 border-b border-blue-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="bg-amber-100 text-amber-800 px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">100% Fresh & Creamy</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mt-4 mb-6 leading-tight">
+                Taste the Richness of <br class="hidden sm:inline"><span class="text-brand-600">Kissan Cheese</span>
+            </h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-8">
+                Premium quality cheese made for pizza, burgers, sandwiches, and daily cooking. Order directly via WhatsApp or Messenger for instant delivery!
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#products" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-xl shadow-lg transition">
+                    Explore Cheese Products
+                </a>
+                <a href="#contact" class="bg-white text-slate-700 hover:text-brand-600 font-semibold px-6 py-3 rounded-xl border border-slate-200 shadow-sm transition">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-slate-900">Our Cheese Products</h2>
+            <p class="text-slate-600 mt-2">Select any item to order directly through WhatsApp or Messenger</p>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- PRODUCT 1: Processed Cheese Block -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+                <div class="relative h-64 bg-slate-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=600&auto=format&fit=crop" 
+                         alt="Kissan Processed Cheese Block" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-amber-500 text-white text-xs font-bold px-2.5 py-1 rounded-md">Best Seller</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Kissan Processed Cheese Block</h3>
+                        <p class="text-slate-600 text-sm mb-4">Rich, creamy cheese block perfect for grating over pasta, pizza, and snacks.</p>
+                        <div class="text-2xl font-bold text-brand-600 mb-6">৳250 <span class="text-xs text-slate-400 font-normal">/ 200g</span></div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="https://wa.me/8801315446547?text=Hi!%20I%20want%20to%20order:%20Kissan%20Processed%20Cheese%20Block" 
+                           target="_blank" 
+                           class="bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-3 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition">
+                            <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp
+                        </a>
+                        <a href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME" 
+                           target="_blank" 
+                           class="bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-3 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition">
+                            <i class="fa-brands fa-facebook-messenger text-base"></i> Messenger
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 2: Mozzarella Cheese -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+                <div class="relative h-64 bg-slate-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1559561853-08451507cbe7?w=600&auto=format&fit=crop" 
+                         alt="Kissan Mozzarella Cheese" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-brand-600 text-white text-xs font-bold px-2.5 py-1 rounded-md">Perfect Stretch</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Kissan Mozzarella Cheese</h3>
+                        <p class="text-slate-600 text-sm mb-4">High stretch mozzarella cheese designed for perfect pizza toppings and bakery items.</p>
+                        <div class="text-2xl font-bold text-brand-600 mb-6">৳380 <span class="text-xs text-slate-400 font-normal">/ 500g</span></div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="https://wa.me/8801315446547?text=Hi!%20I%20want%20to%20order:%20Kissan%20Mozzarella%20Cheese" 
+                           target="_blank" 
+                           class="bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-3 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition">
+                            <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp
+                        </a>
+                        <a href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME" 
+                           target="_blank" 
+                           class="bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-3 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition">
+                            <i class="fa-brands fa-facebook-messenger text-base"></i> Messenger
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 3: Cheese Slices -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+                <div class="relative h-64 bg-slate-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=600&auto=format&fit=crop" 
+                         alt="Kissan Cheese Slices" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Kissan Cheese Slices</h3>
+                        <p class="text-slate-600 text-sm mb-4">Individually wrapped slices for quick burgers, sandwiches, and toasties.</p>
+                        <div class="text-2xl font-bold text-brand-600 mb-6">৳220 <span class="text-xs text-slate-400 font-normal">/ Pack of 10</span></div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="https://wa.me/8801315446547?text=Hi!%20I%20want%20to%20order:%20Kissan%20Cheese%20Slices" 
+                           target="_blank" 
+                           class="bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-3 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition">
+                            <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp
+                        </a>
+                        <a href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME" 
+                           target="_blank" 
+                           class="bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-3 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition">
+                            <i class="fa-brands fa-facebook-messenger text-base"></i> Messenger
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-16 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Why Choose Kissan Cheese?</h2>
+            <p class="text-slate-600 leading-relaxed">
+                We take pride in providing delicious, high-quality cheese products crafted with care. Whether you are baking homemade pizza, preparing quick morning breakfast sandwiches, or supplying a restaurant, Kissan Cheese delivers freshness and taste in every bite.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT & MESSAGE SECTION -->
+    <section id="contact" class="py-16 bg-blue-50 border-t border-b border-blue-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900">Get in Touch with Kissan Cheese</h2>
+                <p class="text-slate-600 mt-2">Need bulk orders or have questions? Contact us directly!</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                
+                <!-- Direct Messaging Cards -->
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Instant Order Channels</h3>
+                        <p class="text-slate-600 text-sm mb-6">For instant orders and quick delivery updates, contact us directly:</p>
+                        
+                        <div class="space-y-3">
+                            <!-- WhatsApp Link -->
+                            <a href="https://wa.me/8801315446547" target="_blank" 
+                               class="flex items-center gap-4 p-4 rounded-xl bg-emerald-50 text-emerald-700 hover:bg-emerald-100 transition border border-emerald-200">
+                                <div class="bg-emerald-600 text-white p-3 rounded-lg">
+                                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                                </div>
+                                <div>
+                                    <div class="font-bold">WhatsApp Direct Order</div>
+                                    <div class="text-xs text-emerald-800">Quickest way to order Kissan Cheese</div>
+                                </div>
+                            </a>
+
+                            <!-- Messenger Link -->
+                            <a href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME" target="_blank" 
+                               class="flex items-center gap-4 p-4 rounded-xl bg-blue-50 text-blue-700 hover:bg-blue-100 transition border border-blue-200">
+                                <div class="bg-blue-600 text-white p-3 rounded-lg">
+                                    <i class="fa-brands fa-facebook-messenger text-2xl"></i>
+                                </div>
+                                <div>
+                                    <div class="font-bold">Facebook Messenger</div>
+                                    <div class="text-xs text-blue-800">Message our official Facebook page</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Contact Form -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-100">
+                    <h3 class="text-xl font-bold text-slate-900 mb-6">Send an Inquiry</h3>
+                    <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Your Name</label>
+                            <input type="text" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:outline-none text-slate-800" placeholder="Full Name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Phone Number</label>
+                            <input type="text" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:outline-none text-slate-800" placeholder="+880 1XXX-XXXXXX">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Message / Quantity Needed</label>
+                            <textarea rows="4" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:outline-none text-slate-800" placeholder="Specify which Kissan Cheese products and quantities you need..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-semibold py-3 rounded-lg shadow-md transition">
+                            Submit Inquiry
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/8801315446547?text=Hi!%20I%20would%20like%20to%20know%20more%20about%20Kissan%20Cheese." 
+       target="_blank" 
+       class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 z-50">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>© 2026 Kissan Cheese. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert("Thank you for contacting Kissan Cheese! We will reply to your phone number shortly.");
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>

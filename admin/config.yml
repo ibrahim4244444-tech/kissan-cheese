@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "store"
+    label: "Store Management"
+    files:
+      - file: "products.json"
+        label: "Cheese Products"
+        name: "products"
+        fields:
+          - label: "Product Name"
+            name: "name"
+            widget: "string"
+          - label: "Price (Tk)"
+            name: "price"
+            widget: "string"
+          - label: "Product Image"
+            name: "image"
+            widget: "image"
