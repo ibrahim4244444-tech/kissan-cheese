@@ -279,14 +279,13 @@
   fetch('products.json')
     .then(response => response.json())
     .then(data => {
-      // Handles single item object, array, or wrapped object
       let products = [];
       if (Array.isArray(data)) {
         products = data;
       } else if (data && data.products && Array.isArray(data.products)) {
         products = data.products;
       } else if (data && typeof data === 'object' && data.name) {
-        products = [data]; // Wraps the single item into an array
+        products = [data];
       }
 
       const grid = document.getElementById('product-grid');
@@ -302,7 +301,7 @@
             <p class="text-slate-600 text-sm mt-2">${item.description || ''}</p>
             <div class="mt-4 flex items-center justify-between">
               <span class="text-lg font-bold text-amber-600">৳${item.price || ''}</span>
-              <a href="https://wa.me/8801950502312?text=I%20want%20to%20order%20${encodeURIComponent(item.name || '')}" target="_blank" class="px-4 py-2 bg-amber-500 text-white font-semibold rounded-xl hover:bg-amber-600 transition">Order Now</a>
+              <a href="https://wa.me/8801315446547?text=Hi!%20I%20want%20to%20order%20${encodeURIComponent(item.name || '')}" target="_blank" class="px-4 py-2 bg-amber-500 text-white font-semibold rounded-xl hover:bg-amber-600 transition">Order Now</a>
             </div>
           </div>
         </div>
