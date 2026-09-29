@@ -10,6 +10,12 @@
       "name": "Kisan Mozzarella Cheese ",
       "price": "710",
       "image": "/images/825279761_29131061289810835_7450280747716528123_n.webp"
+    },
+    {
+      "name": "Kisan Slices Cheese ",
+      "price": "1270",
+      "description": "1kg=84 pcs",
+      "image": "/images/827983617_2150404429217991_8296721580864443559_n.webp"
     }
   ]
 }
