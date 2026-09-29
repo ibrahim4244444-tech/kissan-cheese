@@ -5,6 +5,11 @@
       "price": "1120",
       "description": "Rich and creamy cheddar cheese.",
       "image": "/images/825279590_1087303727391088_1594516315260055962_n.webp"
+    },
+    {
+      "name": "Kisan Mozzarella Cheese ",
+      "price": "710",
+      "image": "/images/825279761_29131061289810835_7450280747716528123_n.webp"
     }
   ]
 }
