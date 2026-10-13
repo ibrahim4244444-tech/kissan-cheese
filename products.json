@@ -28,6 +28,12 @@
       "price": "250",
       "description": "Premium Paratha",
       "image": "/images/844839350_1080792601228235_3808261281561916185_n.webp"
+    },
+    {
+      "name": "Bombay Low fat Paratha (1200g)",
+      "price": "200",
+      "description": "Premium Paratha ",
+      "image": "/images/843495336_1110293981359599_3461283831484152540_n.webp"
     }
   ]
 }
