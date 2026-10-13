@@ -40,6 +40,12 @@
       "name": "Chicken Nuggets ",
       "price": "550",
       "description": "(1kg)"
+    },
+    {
+      "image": "/images/844860574_978656681224315_8833255184435093839_n.webp",
+      "name": "Chicken Nuggets ",
+      "price": "270",
+      "description": "(500g)"
     }
   ]
 }
