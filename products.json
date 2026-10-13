@@ -46,6 +46,12 @@
       "name": "Chicken Nuggets ",
       "price": "270",
       "description": "(500g)"
+    },
+    {
+      "image": "/images/843090114_1489921269854156_8934849320520789960_n.webp",
+      "name": "Chicken mini Somosa ",
+      "price": "550",
+      "description": "(1kg)"
     }
   ]
 }
