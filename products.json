@@ -34,6 +34,12 @@
       "price": "200",
       "description": "Premium Paratha ",
       "image": "/images/843495336_1110293981359599_3461283831484152540_n.webp"
+    },
+    {
+      "image": "/images/842018696_1760539778573207_7592232330252061376_n.webp",
+      "name": "Chicken Nuggets ",
+      "price": "550",
+      "description": "(1kg)"
     }
   ]
 }
